@@ -9,10 +9,30 @@ body {
   min-height: 100vh;
   font-family: "Mulish", sans-serif;
 }
+input:focus {
+  outline: none;
+}
+select:focus {
+  outline: none;
+}
+input::placeholder {
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+}
 .title {
   color: #131318;
   font-size: 2.1rem;
   font-weight: 800;
+}
+.button {
+  border-radius: 8px;
+  background: #ff5400;
+  width: 150px;
+  height: 40px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 /* nav section */
@@ -67,4 +87,69 @@ nav {
 }
 .menubtn {
   display: none;
+}
+
+/* booking section */
+
+.booking-container {
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../images/Group\ 13.png");
+  border-radius: 1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  gap: 24px;
+}
+.booking-title {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 800;
+  text-align: center;
+}
+.booking-des {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0 110px;
+  text-align: center;
+}
+.booking-content {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 16px;
+  display: flex;
+  gap: 24px;
+}
+.booking-content input,
+select,
+button {
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+}
+.booking-content input {
+  font-size: 1rem;
+  font-weight: 400;
+  padding-left: 14px;
+}
+.booking-content select {
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  padding-left: 10px;
 }

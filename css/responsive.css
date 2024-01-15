@@ -1,13 +1,43 @@
 @media screen and (max-width: 600px) {
-    .title {
-        color: #131318;
-        font-size: 1.9rem;
-        font-weight: 800;
-      }
-    .hideonphone {
-        display: none;
-    }
-    .menubtn {
-        display: block;
-    }
+  .title {
+    color: #131318;
+    font-size: 1.9rem;
+    font-weight: 800;
+  }
+  .hideonphone {
+    display: none;
+  }
+  .menubtn {
+    display: block;
+  }
+  .booking-container {
+    height: 100%;
+    margin: 20px;
+  }
+  .booking-title {
+    font-size: 2rem;
+    margin-top: 50px;
+  }
+  .booking-des {
+    font-size: 1rem;
+    margin: 0 30px;
+  }
+  .booking-content {
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .booking-content input,
+  select,
+  button {
+    width: 95%;
+    height: 60px;
+    background: #fff;
+  }
+  .button {
+    background: #ff5400;
+    width: 95%;
+    height: 60px;
+  }
 }
