@@ -49,12 +49,12 @@
     margin-right: 0px;
   }
   .tour-img img {
-   width: 100%;
+    width: 100%;
   }
   .tour-text button {
     width: 174px;
   }
-  .destiny{
+  .destiny {
     margin: 40px 20px;
   }
   .destiny-img {
@@ -71,5 +71,14 @@
   }
   .destiny-img div {
     height: 200px;
+  }
+  .features {
+    margin: 40px 20px;
+  }
+  .features-container {
+    grid-template-areas:
+      "o"
+      "b"
+      "r";
   }
 }
