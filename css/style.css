@@ -184,3 +184,121 @@ button {
   font-weight: 400;
   line-height: 1.5rem;
 }
+
+/* destiny section */
+
+.destiny {
+    margin-top: 100px;
+}
+.destiny .title {
+    text-align: center;
+}
+.destiny .des {
+    margin: 24px 0 40px 0;
+    text-align: center;
+}
+.destiny-img {
+  display: grid;
+  grid-template-areas:
+    "mal mal mal mal indo indo indo indo"
+    "sri sri na na na na kash kash"
+    "bd bd bd band band band band band";
+  gap: 24px;
+}
+
+.Maldives {
+  grid-area: mal;
+  background-image: url(../Images/Rectangle\ 5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Indo {
+  grid-area: indo;
+  background-image: url(../Images/Rectangle\ 8.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Srilanka {
+  grid-area: sri;
+  background-image: url(../Images/Rectangle\ 6.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.NA {
+  grid-area: na;
+  background-image: url(../Images/Rectangle\ 7.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Kashmir {
+  grid-area: kash;
+  background-image: url(../Images/Rectangle\ 9.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.BD {
+  grid-area: bd;
+  background-image: url(../Images/Rectangle\ 11.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Bandarban {
+  grid-area: band;
+  background-image: url(../Images/Rectangle\ 10.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.place-name {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 800;
+}

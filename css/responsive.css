@@ -54,4 +54,22 @@
   .tour-text button {
     width: 174px;
   }
+  .destiny{
+    margin: 40px 20px;
+  }
+  .destiny-img {
+    display: grid;
+    grid-template-areas:
+      "mal"
+      "indo"
+      "sri"
+      "na"
+      "kash"
+      "bd"
+      "band";
+    gap: 24px;
+  }
+  .destiny-img div {
+    height: 200px;
+  }
 }
