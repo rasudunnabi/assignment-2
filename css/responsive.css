@@ -81,4 +81,47 @@
       "b"
       "r";
   }
+  .deals {
+    margin: 40px 20px;
+  }
+  .deals > div {
+    height: 500px;
+  }
+  .bali {
+    justify-content: center;
+    padding-left: 0px;
+    align-items: flex-end;
+    padding-bottom: 20px;
+  }
+  .kyoto {
+    justify-content: center;
+    padding-right: 0px;
+    align-items: flex-end;
+    padding-bottom: 20px;
+  }
+  .santorini {
+    justify-content: center;
+    padding-left: 0px;
+    align-items: flex-end;
+    padding-bottom: 20px;
+  }
+  .card {
+    width: 90%;
+    height: 70%;
+    padding: 20px;
+  }
+  .card h6,
+  p {
+    font-size: 0.8rem;
+  }
+  .card h3 {
+    font-size: 1.2rem;
+  }
+  .card h4 {
+    font-size: 1rem;
+  }
+  .card .button {
+    width: 130px;
+    height: 40px;
+  }
 }
