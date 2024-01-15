@@ -1,0 +1,13 @@
+@media screen and (max-width: 600px) {
+    .title {
+        color: #131318;
+        font-size: 1.9rem;
+        font-weight: 800;
+      }
+    .hideonphone {
+        display: none;
+    }
+    .menubtn {
+        display: block;
+    }
+}
