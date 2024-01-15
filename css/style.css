@@ -25,6 +25,12 @@ input::placeholder {
   font-size: 2.1rem;
   font-weight: 800;
 }
+.des {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
 .button {
   border-radius: 8px;
   background: #ff5400;
@@ -97,7 +103,7 @@ nav {
       rgba(19, 19, 24, 0.8) 0%,
       rgba(19, 19, 24, 0) 100%
     ),
-    url("../images/Group\ 13.png");
+    url("../Images/Group\ 13.png");
   border-radius: 1rem;
   background-position: center;
   background-repeat: no-repeat;
@@ -152,4 +158,29 @@ button {
   font-size: 1rem;
   font-weight: 400;
   padding-left: 10px;
+}
+
+/* tour section */
+
+.tour-container {
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+}
+.tour-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-right: 100px;
+  /* border: 1px solid black; */
+}
+.tour-text ul {
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
 }

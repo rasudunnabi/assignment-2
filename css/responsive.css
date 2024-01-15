@@ -40,4 +40,18 @@
     width: 95%;
     height: 60px;
   }
+  .tour-container {
+    flex-direction: column;
+    margin: 0 20px;
+    gap: 30px;
+  }
+  .tour-text {
+    margin-right: 0px;
+  }
+  .tour-img img {
+   width: 100%;
+  }
+  .tour-text button {
+    width: 174px;
+  }
 }
