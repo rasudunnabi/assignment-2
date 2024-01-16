@@ -124,4 +124,16 @@
     width: 130px;
     height: 40px;
   }
+  .preview {
+    flex-direction: column;
+    margin: 40px 20px;
+  }
+  .preview-content {
+    padding-right: 0px;
+    width: 100%;
+  }
+  .preview-content .button {
+    width: 174px;
+    height: 52px;
+  }
 }
