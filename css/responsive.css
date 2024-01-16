@@ -1,7 +1,7 @@
 @media screen and (max-width: 600px) {
   .title {
     color: #131318;
-    font-size: 1.9rem;
+    font-size: 1.8rem;
     font-weight: 800;
   }
   .hideonphone {
@@ -75,6 +75,12 @@
   }
   .features {
     margin: 40px 20px;
+  }
+  .features-title {
+    font-size: 1.3rem;
+  }
+  .features-des {
+    font-size: 0.8rem;
   }
   .features-container {
     grid-template-areas:
@@ -164,5 +170,8 @@
     padding: 250px 40px;
     width: 100%;
     border-radius: 0px;
+  }
+  .footer-title {
+    font-size: 1.5rem;
   }
 }
