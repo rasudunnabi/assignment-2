@@ -39,6 +39,7 @@ input::placeholder {
   color: #fff;
   font-size: 1rem;
   font-weight: 700;
+  cursor: pointer;
 }
 .color {
   color: #ff5400;
@@ -217,7 +218,13 @@ button {
     "bd bd bd band band band band band";
   gap: 24px;
 }
-
+/* .destiny-img div {
+  transition: all 0.5s ease-in-out;
+  background-size: 105%;
+}
+.destiny-img div:hover {
+  background-size: 115%;
+} */
 .Maldives {
   grid-area: mal;
   background-image: url(../Images/Rectangle\ 5.png);
@@ -246,7 +253,7 @@ button {
 }
 .Srilanka {
   grid-area: sri;
-  background-image: url(../Images/Rectangle\ 6.png);
+  background-image: url(../Images/srilanka3.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -494,7 +501,8 @@ p {
   height: 120px;
   transform: rotate(-19.628deg);
   border-radius: 16px;
-  background: #ff5400;
+  background: #ff5500c5;
+  backdrop-filter: blur(2.5px);
   position: absolute;
   bottom: 50px;
   right: 10px;
@@ -547,6 +555,45 @@ p {
 .mail-content hr {
   border: 1px solid #1313181a;
 }
+
+/* review section */
+
+.review {
+  display: flex;
+  gap: 24px;
+  margin: 0 0 100px 0;
+}
+.review-rec {
+  width: 30%;
+  height: 400px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 100px;
+  gap: 24px;
+}
+.user-review {
+  width: 70%;
+  height: 400px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 100px;
+  gap: 24px;
+}
+
+/* footer section */
+
 footer {
   width: 100%;
   height: 400px;
