@@ -136,4 +136,26 @@
     width: 174px;
     height: 52px;
   }
+  .mail {
+    margin: 40px 20px;
+    flex-direction: column;
+  }
+  .mail-content,
+  .mail-img {
+    width: 100%;
+  }
+  .offer {
+    width: 214px;
+    height: 79px;
+  }
+  .offer h5 {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .offer h3 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
 }
