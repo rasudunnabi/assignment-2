@@ -40,6 +40,10 @@ input::placeholder {
   font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
+  transition: 0.3s;
+}
+.button:hover {
+  background-color: #424247;
 }
 .color {
   color: #ff5400;
@@ -75,6 +79,12 @@ nav {
   color: #424247;
   font-size: 1.1rem;
   font-weight: 400;
+  padding: 15px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.nav-contents li a:hover {
+  background-color: #00000015;
 }
 .sidebar {
   position: fixed;
